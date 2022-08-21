@@ -7,4 +7,4 @@ Staus: under development
 - Objective-C
 - VIPER 
 - API https://newsapi.org/docss
-- "Generamba" code generator by Rambler
+- **<a href="https://github.com/strongself/Generamba">"Generamba" code generator (2015-2019) by Rambler</a>**
