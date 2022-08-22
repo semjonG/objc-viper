@@ -14,6 +14,11 @@
 		04D7431E28B2404C00EFB573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D7431D28B2404C00EFB573 /* Assets.xcassets */; };
 		04D7432128B2404C00EFB573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D7431F28B2404C00EFB573 /* LaunchScreen.storyboard */; };
 		04D7432428B2404C00EFB573 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D7432328B2404C00EFB573 /* main.m */; };
+		12D1E6827ECDD6CA80F77636 /* HomeModuleRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD9E2F92C0622D8903F0ADB /* HomeModuleRouter.m */; };
+		34392B03D0EC7205B44237A9 /* HomeModulePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BC2BA16FC263B661F4E69A /* HomeModulePresenter.m */; };
+		93EFFB90EBBDE60FDD3AFC1D /* HomeModuleAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE0C66B24C09C3DDF6EDE86 /* HomeModuleAssembly.m */; };
+		B795A94DEB9D57A0A6015D73 /* HomeModuleInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 431232108E49693935DE5465 /* HomeModuleInteractor.m */; };
+		DA8E96B1BAD0C8CE6466DD20 /* HomeModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4326FE6554DA0C64F18AEE /* HomeModuleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,23 @@
 		04D7432028B2404C00EFB573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D7432228B2404C00EFB573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D7432328B2404C00EFB573 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		243B6F83040A1A1AA41E305A /* HomeModulePresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeModulePresenter.h; sourceTree = "<group>"; };
+		286918C8E71EBEECC2337E5B /* HomeModuleInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeModuleInteractorOutput.h; sourceTree = "<group>"; };
+		2DE6FCDAB5D0071621B61256 /* HomeModuleInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeModuleInteractor.h; sourceTree = "<group>"; };
+		40FD966B3D25DC4ACF07BC3F /* HomeModuleInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeModuleInteractorInput.h; sourceTree = "<group>"; };
+		431232108E49693935DE5465 /* HomeModuleInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HomeModuleInteractor.m; sourceTree = "<group>"; };
+		45A90265CA1907BDCCDFAA93 /* HomeModuleViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeModuleViewOutput.h; sourceTree = "<group>"; };
+		4AA82C78943C218F78F3E305 /* HomeModuleRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeModuleRouter.h; sourceTree = "<group>"; };
+		56C4ED531B5058AA582F9E33 /* HomeModuleModuleOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeModuleModuleOutput.h; sourceTree = "<group>"; };
+		72CB840BA3A33B3711B4CE80 /* HomeModuleViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeModuleViewInput.h; sourceTree = "<group>"; };
+		75D2AE189BCD535805676B5E /* HomeModuleAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeModuleAssembly.h; sourceTree = "<group>"; };
+		7B4326FE6554DA0C64F18AEE /* HomeModuleViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HomeModuleViewController.m; sourceTree = "<group>"; };
+		93BC2BA16FC263B661F4E69A /* HomeModulePresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HomeModulePresenter.m; sourceTree = "<group>"; };
+		9BE0C66B24C09C3DDF6EDE86 /* HomeModuleAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HomeModuleAssembly.m; sourceTree = "<group>"; };
+		A1A1CE53DCFA828A86485825 /* HomeModuleViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeModuleViewController.h; sourceTree = "<group>"; };
+		A5B7AF3F7B88F087020EE600 /* HomeModuleRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeModuleRouterInput.h; sourceTree = "<group>"; };
+		DD1B7B713B8FDF1B5AFB7836 /* HomeModuleModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeModuleModuleInput.h; sourceTree = "<group>"; };
+		EAD9E2F92C0622D8903F0ADB /* HomeModuleRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HomeModuleRouter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +69,7 @@
 			children = (
 				04D7431028B2404800EFB573 /* objc-viper */,
 				04D7430F28B2404800EFB573 /* Products */,
+				D5B2477F3A031C0C2659F306 /* Sources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +84,7 @@
 		04D7431028B2404800EFB573 /* objc-viper */ = {
 			isa = PBXGroup;
 			children = (
+				949753A1F431F0E99BBB3CC7 /* HomeModule */,
 				04D7431128B2404800EFB573 /* AppDelegate.h */,
 				04D7431228B2404800EFB573 /* AppDelegate.m */,
 				04D7431428B2404800EFB573 /* SceneDelegate.h */,
@@ -74,6 +98,85 @@
 				04D7432328B2404C00EFB573 /* main.m */,
 			);
 			path = "objc-viper";
+			sourceTree = "<group>";
+		};
+		474C096BCED4124E4F016D1D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2DE6FCDAB5D0071621B61256 /* HomeModuleInteractor.h */,
+				431232108E49693935DE5465 /* HomeModuleInteractor.m */,
+				40FD966B3D25DC4ACF07BC3F /* HomeModuleInteractorInput.h */,
+				286918C8E71EBEECC2337E5B /* HomeModuleInteractorOutput.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6BCFD89103CFAE9D762DC70E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4AA82C78943C218F78F3E305 /* HomeModuleRouter.h */,
+				EAD9E2F92C0622D8903F0ADB /* HomeModuleRouter.m */,
+				A5B7AF3F7B88F087020EE600 /* HomeModuleRouterInput.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		84BBA9281C66B936A1B68299 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				75D2AE189BCD535805676B5E /* HomeModuleAssembly.h */,
+				9BE0C66B24C09C3DDF6EDE86 /* HomeModuleAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		949753A1F431F0E99BBB3CC7 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				84BBA9281C66B936A1B68299 /* Assembly */,
+				474C096BCED4124E4F016D1D /* Interactor */,
+				6BCFD89103CFAE9D762DC70E /* Router */,
+				FC6004824DB1ABE52B2796D0 /* Presenter */,
+				EC8830FAE822E354C6EE4A40 /* View */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		D5B2477F3A031C0C2659F306 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DA70B493CA19982FAE4181A0 /* Modules */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		DA70B493CA19982FAE4181A0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EC8830FAE822E354C6EE4A40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1A1CE53DCFA828A86485825 /* HomeModuleViewController.h */,
+				7B4326FE6554DA0C64F18AEE /* HomeModuleViewController.m */,
+				72CB840BA3A33B3711B4CE80 /* HomeModuleViewInput.h */,
+				45A90265CA1907BDCCDFAA93 /* HomeModuleViewOutput.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC6004824DB1ABE52B2796D0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				243B6F83040A1A1AA41E305A /* HomeModulePresenter.h */,
+				93BC2BA16FC263B661F4E69A /* HomeModulePresenter.m */,
+				DD1B7B713B8FDF1B5AFB7836 /* HomeModuleModuleInput.h */,
+				56C4ED531B5058AA582F9E33 /* HomeModuleModuleOutput.h */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +253,11 @@
 				04D7431328B2404800EFB573 /* AppDelegate.m in Sources */,
 				04D7432428B2404C00EFB573 /* main.m in Sources */,
 				04D7431628B2404800EFB573 /* SceneDelegate.m in Sources */,
+				93EFFB90EBBDE60FDD3AFC1D /* HomeModuleAssembly.m in Sources */,
+				B795A94DEB9D57A0A6015D73 /* HomeModuleInteractor.m in Sources */,
+				12D1E6827ECDD6CA80F77636 /* HomeModuleRouter.m in Sources */,
+				34392B03D0EC7205B44237A9 /* HomeModulePresenter.m in Sources */,
+				DA8E96B1BAD0C8CE6466DD20 /* HomeModuleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
